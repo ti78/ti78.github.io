@@ -1,0 +1,257 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html,
+html * 
+
+
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";	
+}
+
+header{
+	padding: 32px;
+}
+
+.style-logo {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.style-nav ul {
+	list-style-type: none;
+}
+
+.style-nav ul li a {
+	text-decoration: none;
+	color:#2F322A;
+	text-align: center;
+	display: block;
+	text-transform: uppercase;
+	padding: 8px;
+	color: aqua;
+	
+}
+
+/*Tablet View*/
+
+@media (min-width: 768px) {
+	
+	.style-nav ul li {
+		display: inline-block;
+	}
+
+	.style-nav ul {
+		text-align: center;
+	}
+	
+}
+
+
+/*Desktop View*/
+
+@media (min-width: 1024px) {
+	
+	.style-logo {
+		float: left;
+	}
+
+	.style-nav {
+		float: right;
+	}
+}
+
+
+	
+
+
+
+/*!--Introduction*/
+
+
+#header h1 {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-style: normal;
+	font-weight: bold;
+	font-size: 21px;
+	text-align: center;
+	color: aqua;
+	border-style: solid;
+	background-color: darkblue;
+}
+
+
+.style-maintext {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 14px;
+	text-align: center;
+	color: aqua;
+}
+ 
+
+.style-text {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 22px;
+	color: white;	
+	text-align: left;
+}
+
+.style-alltext {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 22px;
+	color: white;	
+	text-align: left;
+	text-float:left;
+	
+}
+
+.style-sometext{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 22px;
+	color: white;	
+	text-align: center;	
+}
+
+
+.style-mosttext{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 22px;
+	color: white;	
+	text-align: left;
+}
+
+
+.style-manytext{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 14px;
+	text-align: left;
+	color: aqua;
+}
+
+.style-image
+	img {
+	max-width: 20%;
+	height: auto;
+	float: left;
+	float: right;
+}
+
+.style-picture
+	img {
+	max-width: 30%;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+body {
+  background-color: black;
+
+
+
+
+}
+
+body
+
+
+.Crest {
+	width: 10%;
+	margin-top: 0;
+	display: block;
+	position:fixed;
+	
+}
+
+.footer {
+	left:0;
+	position: fixed;
+	bottom: 0%;
+	width: 100%;
+	height: 20%;
+	background-color:darkblue;
+	opacity:0.8;
+	color: lightblue;
+	text-align:center;
+	font-size:11px;
+	letter-spacing:2px;
+	line-height:20px;
+	font-weight:300;
+	color: #8DC4E8;
+
+}
+
+/* Gallery */
+.navbar {
+	height:80px;
+	width:100%;
+	background: rgba(0,0,0,0,4);
+}
+
+.logo{
+	width:140px;
+	height: auto;
+	padding:20px 10px;
+}
+
+.navbar ul{
+	float:right;
+	margin-right:20px;
+}
+	
+.navbar ul li{
+	list-style:none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height:80px;
+}
+
+.navbar ul li a{
+	text-decoration:none;
+	color: white;
+	font-size: 20px;
+	padding: 6px 13px;
+	font-family:'roboto', sans-serif;
+	transition: .4s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: #1C61F3;
+	border-radius: 2px;
+}
+.box{
+	display:block;
+	float:left;
+	width:30%;
+	padding:20px;
+	padding-left:13px;
+}
+
+img{
+	width: 100%;
+	border-radius: 13px;
+}
+
+.ContactForm{
+	background-color: white;
+	padding: 20px;
+	margin: auto;
+}
+
+.ContactForm > input, label {
+	position: relative;
+	display: block;
+}
+
+.
